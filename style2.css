@@ -1,0 +1,14 @@
+.first{
+    /* border: 2px solid black; */
+    align-items: center;
+    text-align: center;
+    margin: 75px;
+    padding: 35px;
+}
+.first h2{
+    font-size: 40px;
+}
+body{
+    background-image: url(bckground3.jpeg);
+    background-size: cover;
+}

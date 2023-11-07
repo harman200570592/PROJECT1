@@ -1,0 +1,60 @@
+.first{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(images/h.jpeg);
+    background-size: cover;
+}
+.movie-container{
+    width: 90%;
+    height: auto;
+    border: 5px solid rgba(red,blue,green);
+}
+img{
+    float: right;
+}
+.title{
+    position: absolute;
+    color: #fff;
+    padding: 50px,80px;
+    font-size: 130px;
+    font-family: 'franklin gothic medium','Arial  Narrow','Arial', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 10px;
+}
+h3{
+    /* position: ; */
+    font-size: 40px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 56px;
+    top: 180px;
+    left: 100px;
+}
+.dis{
+    position: absolute;
+    top: 70%;
+    left:300px;
+    padding:50px 50px;
+    color: black;
+}
+button{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    padding: 30px 80px;
+    font-size: 40px;
+    border: 3px solid #fff;
+    background: none;
+    color: black;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
